@@ -72,7 +72,7 @@ public class OpenCartTests {
 				driver.manage().window().maximize();
 			}
 			else if(browser.equalsIgnoreCase("firefox")) {
-				WebDriverManager.chromedriver().setup();
+				WebDriverManager.firefoxdriver().setup();
 				driver = new FirefoxDriver();
 				driver.manage().window().maximize();
 			}
